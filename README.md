@@ -6,8 +6,10 @@ A simple 4-page static site: Home, About, Services, Contact.
 
 Search each HTML file for anything in `[brackets]` and replace it with your real information:
 
-- `[315-953-6939]`
-- `[Your Email]` / `[Business@blackstallions.us]`
+- `[Your Phone Number]`
+- `[Your Email]` / `[Your Email Address]`
+- `[Your Business Address]`
+- `[Your MC Number]` and `[Your DOT Number]`
 - `[X]+` stat placeholders (years in business, fleet size, states served)
 - The "Our Story" paragraph in `about.html`
 - The third service card in `services.html`
