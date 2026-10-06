@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Black Stallions LP</title>
+<meta name="description" content="Get a freight quote from Black Stallions LP or get in touch with our team.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a class="logo" href="index.html">BLACK <span>STALLIONS</span> LP</a>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero small">
+  <div class="tag">Contact</div>
+  <h1>Let's Talk About Your Freight</h1>
+  <p class="lead">Reach out directly, or send your lane and load details below and we'll get back to you with availability and a quote.</p>
+</section>
+
+<section>
+  <div class="contact-grid">
+    <div>
+      <div class="info-item">
+        <div class="label">Phone</div>
+        <div class="value">[Your Phone Number]</div>
+      </div>
+      <div class="info-item">
+        <div class="label">Email</div>
+        <div class="value">[Your Email Address]</div>
+      </div>
+      <div class="info-item">
+        <div class="label">Office</div>
+        <div class="value">[Street Address], Memphis, TN [ZIP]</div>
+      </div>
+      <div class="info-item">
+        <div class="label">Operating Authority</div>
+        <div class="value">MC# [Your MC Number] &middot; DOT# [Your DOT Number]</div>
+      </div>
+      <div class="info-item">
+        <div class="label">Hours</div>
+        <div class="value">[e.g. Mon&ndash;Fri, 8am&ndash;6pm]</div>
+      </div>
+    </div>
+    <div>
+      <!--
+        This form currently has no backend attached — submitting it will not
+        send an email until you connect it to a form service. See the
+        step-by-step instructions for wiring this up with Formspree (free,
+        no server needed) using Vercel.
+      -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div>
+          <label for="lanes">Pickup &amp; Delivery Locations</label>
+          <input type="text" id="lanes" name="lanes" placeholder="e.g. Dallas, TX to Atlanta, GA">
+        </div>
+        <div>
+          <label for="message">Load Details / Message</label>
+          <textarea id="message" name="message" placeholder="Weight, freight type, timing, frequency, etc."></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <h4>BLACK STALLIONS LP</h4>
+      <p style="font-size:0.9rem; max-width:320px;">A trucking and logistics carrier committed to on-time, compliant freight movement across the country.</p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>Phone: [Your Phone Number]</li>
+        <li>Email: [Your Email]</li>
+        <li>MC# [Your MC Number] &middot; DOT# [Your DOT Number]</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; <span id="year"></span> Black Stallions LP. All rights reserved.</span>
+    <span>Site built for Black Stallions LP</span>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
