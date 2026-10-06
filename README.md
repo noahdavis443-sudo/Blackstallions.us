@@ -6,8 +6,8 @@ A simple 4-page static site: Home, About, Services, Contact.
 
 Search each HTML file for anything in `[brackets]` and replace it with your real information:
 
-- `[315-953-6939]`
-- `[Your Email]` / `[Business@blackstallions.us]`
+- `315-953-6939`
+- `[Your Email]` / `Business@blackstallions.us`
 - `[Based out of Memphis,Tn]
 - The "Our Story" paragraph in `about.html`
 - The third service card in `services.html`
@@ -15,7 +15,7 @@ Search each HTML file for anything in `[brackets]` and replace it with your real
 ## Contact form
 
 The form in `contact.html` currently points to a placeholder Formspree URL
-(`https://formspree.io/f/YOUR_FORM_ID`). It will not send you anything until
+(`https://docs.google.com/forms/d/1UyHK94miRTGozLYyNYrCQ8KdJ0zpio3dlXR4cn2Nuec/edit). It will not send you anything until
 you create a free account at https://formspree.io, create a form, and swap
 in your real form ID. This is covered in the deployment walkthrough.
 
